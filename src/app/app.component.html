@@ -1,4 +1,18 @@
-<!--<div id="highlight" class="di-component" appHighlight>
+<style>
+  div {
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+
+  @keyframes mymove {
+    from {top: 0px;background: yellow;width: 100px;height: 200px;}
+    to {top: 200px;background: blue;width: 200px;height: 100px;}
+  }
+</style>
+
+<div>part1</div>
+<!--
+  <div id="highlight" class="di-component" appHighlight>
   <h3>Hero Bios and Contacts</h3>
   <div appHighlight="yellow">
     <app-hero-bios-and-contacts></app-hero-bios-and-contacts>
